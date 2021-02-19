@@ -1,0 +1,102 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tricia Voll Photography</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+</head>
+
+<body>
+<!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+        <a class="navbar-brand" href="index.html">Tricia Voll</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarsExample11">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link active" aria-current="page" href="index.html"><img src="images/house.svg" alt="" width="30" height="24" class="d-inline-block align-top"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="takes.html">Tricia's Takes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.instagram.com/triciavollphotography/"><img src="images/instagram.svg"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.facebook.com/triciavollphotography"><img src="images/facebook.svg"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.etsy.com/ca/shop/TriciasTakes"><img src="images/bag.svg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- homepage content -->
+  <div class="container-fluid">
+    <h2>Gallery</h2>
+    <div class="row mt-auto">
+      <div class="col-md-8 pt-md-5">
+        <img src="images/tricia_logo-crop.png" class="img-fluid">
+      </div>
+      <div class="col col-md-4 pt-md-5">
+        <div class="card border-light mx-md-auto">
+            <div class="card-body">
+              <h3 class="card-title">Welcome Page</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula nisl ac lectus dapibus bibendum. Aliquam erat volutpat. 
+                  Aliquam tellus odio, porta eget lacus sit amet, egestas volutpat felis. Fusce nunc velit, hendrerit quis tellus eu, facilisis tempus ipsum. Pellentesque non rutrum libero. 
+                  Aenean mattis ultrices magna non luctus. Etiam aliquet felis dignissim commodo sollicitudin. Suspendisse pretium lorem ut dui bibendum tempus. Suspendisse vel nulla imperdiet, varius mi vel, dapibus purus. 
+                  Integer et maximus arcu. Donec dignissim accumsan maximus. Aliquam condimentum egestas fringilla. Curabitur turpis tellus, dapibus quis aliquet non, malesuada nec nibh. Aliquam pellentesque ultrices ipsum at luctus. 
+                  Pellentesque vehicula urna quis pretium dignissim.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox({
+          alwaysShowClose: true,
+          showArrows: true,
+        });
+      });
+    });
+
+  </script>
+
+<footer>
+  <div class="card border-light mt-auto">
+    <div class="card-body text-center">
+      <p class="card-subtitle text-muted">Tricia Voll Photography &#169; 2021</p> 
+    </div>
+  </div>
+</footer>
+</body>
+
+</html>
